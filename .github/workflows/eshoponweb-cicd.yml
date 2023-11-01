@@ -84,7 +84,7 @@ jobs:
         parameters: 'webAppName=${{ env.WEBAPP-NAME }} location=${{ env.LOCATION }}'
         failOnStdErr: false   
     
-    # Publish website to Azure App Service (WebApp)
+    # Publish website to Azure App Service (WebApp - check)
     - name: Publish Website to WebApp
       uses: Azure/webapps-deploy@v2
       with:
